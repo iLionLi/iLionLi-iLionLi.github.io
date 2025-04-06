@@ -1,4 +1,4 @@
-[Hux Blog](https://huangxuan.me)
+[iLionLi Blog](https://ilionli.github.io/iLionLi-iLionLi.github.io)
 ================================
 
 > I never expected this to become popular.
