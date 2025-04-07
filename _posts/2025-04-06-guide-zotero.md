@@ -10,7 +10,7 @@ tags:
 image: https://images.unsplash.com/photo-1550592704-6c76defa9985?ixlib=rb-.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80
 
 ---
-#zotero
+
 # 教程链接
 >[2022.06.26 特别活动 | Zotero 文献管理与知识整理最佳实践_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Cv4y1M7BY/?spm_id_from=888.80997.embed_other.whitelist&vd_source=3b96b4e9abeab995b8a96de6de59c4f2)
 

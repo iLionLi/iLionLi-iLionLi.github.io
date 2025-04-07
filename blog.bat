@@ -21,8 +21,13 @@ if %ERRORLEVEL% NEQ 0 (
     gem install bundler
 )
 
-echo [信息] 正在安装依赖...
-call bundle install
+REM 只在Gemfile.lock不存在时安装依赖
+if not exist "Gemfile.lock" (
+    echo [信息] 首次运行，正在安装依赖...
+    call bundle install
+) else (
+    echo [信息] 依赖已安装，跳过安装步骤...
+)
 
 echo.
 echo [信息] 启动Jekyll服务...
@@ -30,6 +35,6 @@ echo 请访问 http://localhost:4000 预览博客
 echo 按Ctrl+C停止服务
 echo.
 
-call bundle exec jekyll serve
+call bundle exec jekyll serve --watch
 
 pause
