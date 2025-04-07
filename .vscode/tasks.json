@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "install",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: install",
+			"detail": "install dependencies from package"
+		},
+		{
+            "label": "启动博客预览",
+            "type": "shell",
+            "command": ".\\blog.bat",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "clear": true
+            },
+            "problemMatcher": []
+        }
+	]
+}
